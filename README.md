@@ -18,6 +18,14 @@ Upload the data to an S3 bucket through the AWS Gateway so that SageMaker has ac
 What kind of model did you choose for this experiment and why? Give an overview of the types of parameters and their ranges used for the hyperparameter search
 
 Remember that your README should:
+
+![Training Jobs] (screenshots/training_jobs.png)
+
+- Best Hyperparameters: 
+    - batch_size: 64
+    - epochs: 2
+    - lr: 0.0047518352618877565
+
 - Include a screenshot of completed training jobs
 - Logs metrics during the training process
 - Tune at least two hyperparameters
